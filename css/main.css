@@ -37,4 +37,12 @@ footer nav a, footer p {
   .large-nav {
     display: block;
   }
+
+  footer nav div {
+
+  }
+
+  footer {
+    height: 10em;
+  }
 }
