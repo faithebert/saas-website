@@ -3,5 +3,16 @@ html {
 }
 
 .roboto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sign-up {
+  background-color:#9064BD;
+  color: #fff;
+  border-radius: 8px;
 }
