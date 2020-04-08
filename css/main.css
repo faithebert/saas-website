@@ -21,32 +21,13 @@ nav a {
   display: none;
 }
 
-#nav label {
-  display: inline-block;
+footer {
+ background-color: #6B5672;
 }
 
-#nav label::before {
-
+footer nav a, footer p {
+  color: #B5CAE6;
 }
-
-#nav ul li {
-  display: block;
-}
-
-#nav ul {
-  display: none;
-}
-#nav input:checked ~ ul {
-  display: block;
-}
-
-#nav input:checked ~ .nav-open {
-  display: none;
-}
-
-#nav ul li {
-    display: block;
-  }
 
 @media only screen and (min-width: 38em) {
   .mobile {
@@ -54,6 +35,6 @@ nav a {
   }
 
   .large-nav {
-    display: inline-block;
+    display: block;
   }
 }
