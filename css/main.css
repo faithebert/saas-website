@@ -16,3 +16,36 @@ nav a {
   color: #fff;
   border-radius: 8px;
 }
+
+.large-nav {
+  display: none;
+}
+
+#nav label {
+  display: inline-block;
+}
+
+#nav ul li {
+  display: block;
+}
+
+#nav ul {
+  display: none;
+}
+#nav input:checked ~ ul {
+  display: block;
+}
+
+#nav ul li {
+    display: block;
+  }
+
+@media only screen and (min-width: 38em) {
+  .mobile {
+    display: none;
+  }
+
+  .large-nav {
+    display: inline-block;
+  }
+}
