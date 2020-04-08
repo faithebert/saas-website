@@ -25,6 +25,10 @@ nav a {
   display: inline-block;
 }
 
+#nav label::before {
+
+}
+
 #nav ul li {
   display: block;
 }
@@ -34,6 +38,10 @@ nav a {
 }
 #nav input:checked ~ ul {
   display: block;
+}
+
+#nav input:checked ~ .nav-open {
+  display: none;
 }
 
 #nav ul li {
