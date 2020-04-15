@@ -74,6 +74,10 @@ nav a {
   border-radius: 8px;
 }
 
+.banner-btn {
+  margin-right: auto;
+}
+
 .large-nav {
   display: none;
 }
