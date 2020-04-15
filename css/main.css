@@ -6,6 +6,59 @@ html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-drop {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  background-color: #888;
+  display: none;
+}
+
+.nav-drop a {
+  display: block;
+  padding: 0.5em;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-drop a:hover {
+  background-color: #555;
+}
+
+.nav-check:checked ~ .nav-drop {
+  display: block;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
 nav a {
   text-decoration: none;
   color: #000;
@@ -20,6 +73,7 @@ nav a {
 .large-nav {
   display: none;
 }
+
 
 footer {
  background-color: #6B5672;
@@ -36,10 +90,6 @@ footer nav a, footer p {
 
   .large-nav {
     display: block;
-  }
-
-  footer nav div {
-
   }
 
   footer {
