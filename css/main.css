@@ -6,6 +6,10 @@ html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.banner {
+  background-color: #AC9BBD;
+}
+
 .nav-check {
   position: absolute;
   top: -3em;
@@ -72,6 +76,10 @@ nav a {
 
 .large-nav {
   display: none;
+}
+
+.banner h2 {
+  color: #432D59;
 }
 
 
