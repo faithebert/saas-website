@@ -79,6 +79,7 @@ header nav a:hover {
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
+  border: 0;
 }
 
 .sign-up:hover {
@@ -101,7 +102,7 @@ header nav a:hover {
   display: none;
 }
 
-.banner h2 {
+.form h1, .banner h2 {
   color: #432D59;
 }
 
@@ -158,6 +159,18 @@ table , th, tr, td {
 .special-row {
   background-color: #EADFF5;
   border-style: hidden;
+}
+
+input {
+  height: 2em;
+}
+
+.form button {
+  max-width: 30em;
+}
+
+form {
+  max-width: 40em;
 }
 
 @media only screen and (min-width: 38em) {
