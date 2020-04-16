@@ -12,8 +12,15 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#pricing">Jump to prices</a></li>
+    <li><a href="#how">Jump to how it works</a></li>
+  </ul>
+
   <header>
-    <nav role="navigation" class="roboto large-nav island-1-2">
+    <nav id="nav" role="navigation" class="roboto large-nav island-1-2">
       <ul class="list-group-inline grid grid-middle text-center">
         <li class="unit m-1-4">
           <a class="island-1-2" href="index.html">
@@ -27,7 +34,7 @@
           <a class="island-1-2" href="tour.html">TOUR</a>
         </li>
         <li class="unit m-1-4">
-          <a  class="island-1-2" href="#pricing">PRICING</a>
+          <a  class="island-1-2" href="tour.html#pricing">PRICING</a>
         </li>
         <li class="unit m-1-4">
           <a class="sign-up island-1-2 gutter" href="sign-up.html">SIGN UP</a>
@@ -35,7 +42,7 @@
       </ul>
     </nav>
 
-    <nav role="navigation" class="mobile island-1-2">
+    <nav id="nav" role="navigation" class="mobile island-1-2">
       <a href="index.html">
         <i class="icon i-48">
           <img class="img-flex" src="icons/logo.svg" alt="Purple boat logo">
@@ -52,7 +59,7 @@
         <li class="roboto text-center">
           <a href="index.html">Home</a>
           <a href="tour.html">Tour</a>
-          <a href="#pricing">Pricing</a>
+          <a href="tour.html#pricing">Pricing</a>
           <a href="sign-up.html">Sign Up</a>
         </li>
       </ul>
@@ -74,7 +81,7 @@
 
   </header>
 
-  <main class="pad-t-2" role="main">
+  <main id="main" class="pad-t-2" role="main">
 
     <section class="island">
       <h2 class="roboto text-upper yotta text-center">Connect</h2>
@@ -211,7 +218,7 @@
       </table>
     </section>
 
-    <section class="island">
+    <section id="how" class="island">
       <h2 class="roboto text-upper yotta text-center">How it Works</h2>
       <div class="grid grid-middle">
         <div class="unit xs-1 s-1 m-1-2 island">
