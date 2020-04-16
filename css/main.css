@@ -26,6 +26,7 @@ html {
 .nav-drop a {
   display: block;
   padding: 0.5em;
+  color: #fff;
 }
 
 .nav-label {
@@ -79,7 +80,7 @@ nav a:hover {
   border-radius: 12px;
 }
 
-nav .sign-up:hover {
+header nav .sign-up:hover {
   background-color:#432D59;
 }
 
@@ -121,6 +122,11 @@ footer nav a, footer p {
 
 footer a {
   text-decoration: underline;
+}
+
+footer nav a:hover{
+  color: #432D59;
+
 }
 
 hr {
