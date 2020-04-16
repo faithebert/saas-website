@@ -150,6 +150,16 @@ hr {
   border: 5px solid #fff;
 }
 
+table , th, tr, td {
+  border-collapse: collapse;
+  border: 1px solid #432D59;
+}
+
+.special-row {
+  background-color: #EADFF5;
+  border-style: hidden;
+}
+
 @media only screen and (min-width: 38em) {
   .mobile {
     display: none;
