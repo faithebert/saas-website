@@ -78,9 +78,10 @@ header nav a:hover {
   background-color:#9064BD;
   color: #fff;
   border-radius: 12px;
+  text-decoration: none;
 }
 
-header nav .sign-up:hover {
+.sign-up:hover {
   background-color:#432D59;
 }
 
@@ -142,9 +143,9 @@ hr {
 }
 
 .corner-photo img {
-  width: 10em;
+  width: 15em;
   position: absolute;
-  bottom: -2em;
+  bottom: -4em;
   right: 1em;
   border: 5px solid #fff;
 }
