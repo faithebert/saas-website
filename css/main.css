@@ -141,6 +141,14 @@ hr {
      list-style-type: '\2713';
 }
 
+.corner-photo img {
+  width: 10em;
+  position: absolute;
+  bottom: -2em;
+  right: 1em;
+  border: 5px solid #fff;
+}
+
 @media only screen and (min-width: 38em) {
   .mobile {
     display: none;
