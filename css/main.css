@@ -104,8 +104,12 @@ header nav .sign-up:hover {
   color: #432D59;
 }
 
-section {
+article {
   background-color: #D1C1E2;
+}
+
+section h2 {
+  color: #B37540;
 }
 
 .quote {
