@@ -33,7 +33,7 @@ html {
   display: inline-block;
   width: 40px;
   position: absolute;
-  top: 0;
+  top: -2em;
   right: 0;
 }
 
@@ -44,7 +44,7 @@ html {
 }
 
 .nav-drop a:hover {
-  background-color: #555;
+  background-color: #9064BD;
 }
 
 .nav-check:checked ~ .nav-drop {
@@ -71,7 +71,11 @@ nav a {
 .sign-up {
   background-color:#9064BD;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 12px;
+}
+
+nav .sign-up:hover {
+  background-color:#432D59;
 }
 
 .banner-btn {
@@ -99,7 +103,11 @@ footer {
 }
 
 footer nav a, footer p {
-  color: #B5CAE6;
+  color: #fff;
+}
+
+hr {
+  border-color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
