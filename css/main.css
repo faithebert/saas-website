@@ -68,6 +68,12 @@ nav a {
   color: #000;
 }
 
+nav a:hover {
+  background-color:#D1C1E2;
+  padding: .5em;
+  border-radius: 12px;
+}
+
 .sign-up {
   background-color:#9064BD;
   color: #fff;
