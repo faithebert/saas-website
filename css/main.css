@@ -80,6 +80,14 @@ nav .sign-up:hover {
 
 .banner-btn {
   margin-right: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.banner-btn:hover {
+  background-color:#9064BD;
+  color: #fff;
 }
 
 .large-nav {
@@ -104,6 +112,10 @@ footer {
 
 footer nav a, footer p {
   color: #fff;
+}
+
+footer a {
+  text-decoration: underline;
 }
 
 hr {
