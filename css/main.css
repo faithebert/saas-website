@@ -118,6 +118,49 @@ section h2 {
   background-color: #fff;
 }
 
+.testimonial-img {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.check-list ul {
+     list-style-type: '\2713';
+}
+
+.corner-photo img {
+  width: 15em;
+  position: absolute;
+  bottom: -4em;
+  right: 1em;
+  border: 5px solid #fff;
+}
+
+table , th, tr, td {
+  border-collapse: collapse;
+  border: 1px solid #432D59;
+}
+
+table {
+  width: 45em;
+}
+
+.special-row {
+  background-color: #EADFF5;
+  border-style: hidden;
+}
+
+input {
+  height: 2em;
+}
+
+.form button {
+  max-width: 30em;
+}
+
+form {
+  max-width: 40em;
+}
+
 footer {
  background-color: #6B5672;
 }
@@ -139,40 +182,6 @@ hr {
   border-color: #fff;
 }
 
-.check-list ul {
-     list-style-type: '\2713';
-}
-
-.corner-photo img {
-  width: 15em;
-  position: absolute;
-  bottom: -4em;
-  right: 1em;
-  border: 5px solid #fff;
-}
-
-table , th, tr, td {
-  border-collapse: collapse;
-  border: 1px solid #432D59;
-}
-
-.special-row {
-  background-color: #EADFF5;
-  border-style: hidden;
-}
-
-input {
-  height: 2em;
-}
-
-.form button {
-  max-width: 30em;
-}
-
-form {
-  max-width: 40em;
-}
-
 @media only screen and (min-width: 38em) {
   .mobile {
     display: none;
@@ -186,7 +195,12 @@ form {
     height: 10em;
   }
 
-  .testimonial-img {
-    max-width: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
   }
+
 }
