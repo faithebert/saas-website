@@ -102,6 +102,11 @@ header nav a:hover {
   display: none;
 }
 
+.icons div img {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .form h1, .banner h2 {
   color: #432D59;
 }
@@ -190,6 +195,11 @@ hr {
   .large-nav {
     display: block;
   }
+
+  .icons div img {
+    padding: 0;
+  }
+
 
   footer {
     height: 10em;
