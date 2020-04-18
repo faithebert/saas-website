@@ -7,7 +7,7 @@ html {
 }
 
 .banner {
-  background-color: #DBCAED;
+  background-color: #dbcaed;
 }
 
 .nav-check {
@@ -19,13 +19,13 @@ html {
   margin: auto;
   padding: 0;
   list-style-type: none;
-  background-color: #6B5672;
+  background-color: #6b5672;
   display: none;
 }
 
 .nav-drop a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   color: #fff;
 }
 
@@ -45,7 +45,7 @@ html {
 }
 
 .nav-drop a:hover {
-  background-color: #9064BD;
+  background-color: #9064bd;
 }
 
 .nav-check:checked ~ .nav-drop {
@@ -70,20 +70,20 @@ nav a {
 }
 
 header nav a:hover {
-  background-color:#D1C1E2;
+  background-color: #d1c1e2;
   border-radius: 12px;
 }
 
 a:focus {
-  outline: 5px solid #432D59;
+  outline: 5px solid #432d59;
 }
 
 footer a:focus {
-  outline: 5px solid #D1C1E2;
+  outline: 5px solid #d1c1e2;
 }
 
 .sign-up {
-  background-color:#77529C;
+  background-color: #77529c;
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
@@ -91,7 +91,7 @@ footer a:focus {
 }
 
 .sign-up:hover {
-  background-color:#432D59;
+  background-color: #432d59;
 }
 
 .banner-btn {
@@ -102,7 +102,7 @@ footer a:focus {
 }
 
 .banner-btn:hover {
-  background-color:#9064BD;
+  background-color: #9064bd;
   color: #fff;
 }
 
@@ -116,15 +116,15 @@ footer a:focus {
 }
 
 .form h1, .banner h2 {
-  color: #432D59;
+  color: #432d59;
 }
 
 article {
-  background-color: #D1C1E2;
+  background-color: #d1c1e2;
 }
 
 section h2 {
-  color: #B37540;
+  color: #b37540;
 }
 
 .quote {
@@ -137,7 +137,7 @@ section h2 {
 }
 
 .check-list ul {
-     list-style-type: '\2713';
+  list-style-type: "\2713";
 }
 
 .corner-photo img {
@@ -148,9 +148,9 @@ section h2 {
   border: 5px solid #fff;
 }
 
-table , th, tr, td {
+table, th, tr, td {
   border-collapse: collapse;
-  border: 1px solid #432D59;
+  border: 1px solid #432d59;
 }
 
 table {
@@ -158,7 +158,7 @@ table {
 }
 
 .special-row {
-  background-color: #EADFF5;
+  background-color: #eadff5;
   border-style: hidden;
 }
 
@@ -175,7 +175,7 @@ form {
 }
 
 footer {
- background-color: #6B5672;
+  background-color: #6b5672;
 }
 
 footer nav a, footer p {
@@ -186,9 +186,8 @@ footer a {
   text-decoration: underline;
 }
 
-footer nav a:hover{
-  color: #D1C1E2;
-
+footer nav a:hover {
+  color: #d1c1e2;
 }
 
 hr {
@@ -196,6 +195,7 @@ hr {
 }
 
 @media only screen and (min-width: 38em) {
+
   .mobile {
     display: none;
   }
@@ -212,7 +212,6 @@ hr {
   .icons div {
     align-items: center;
   }
-
 
   footer {
     height: 10em;
