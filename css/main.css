@@ -74,6 +74,10 @@ header nav a:hover {
   border-radius: 12px;
 }
 
+nav a:focus {
+  outline: 3px solid #432d59;
+}
+
 a:focus {
   outline: 5px solid #432d59;
 }
