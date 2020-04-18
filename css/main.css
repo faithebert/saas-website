@@ -74,6 +74,14 @@ header nav a:hover {
   border-radius: 12px;
 }
 
+a:focus {
+  outline: 5px solid #432D59;
+}
+
+footer a:focus {
+  outline: 5px solid #D1C1E2;
+}
+
 .sign-up {
   background-color:#9064BD;
   color: #fff;
