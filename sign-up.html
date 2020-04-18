@@ -16,11 +16,10 @@
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
-    <li><a href="#pricing">Jump to prices</a></li>
-    <li><a href="#how">Jump to how it works</a></li>
+    <li><a href="#pricing">Jump to form</a></li>
   </ul>
 
-  <header>
+  <header role="banner">
     <nav id="nav" role="navigation" class="roboto large-nav island-1-4">
       <ul class="list-group-inline grid grid-middle text-center">
         <li class="unit m-1-4">
@@ -43,10 +42,12 @@
       </ul>
     </nav>
 
-    <nav id="mobile-nav" role="navigation" class="mobile island-1-2">
+    <nav id="mobile-nav" class="mobile island-1-2">
       <a href="index.html">
         <i class="icon i-48">
-          <img class="img-flex" src="icons/logo.svg" alt="Purple boat logo">
+          <div class="embed embed-1by1">
+            <img class="img-flex embed-item" src="icons/logo.svg" alt="Purple boat logo">
+          </div>
         </i>
       </a>
 
@@ -76,24 +77,25 @@
       </a>
     </div>
     <div class="unit xs-1 s-1 m-2-3 island-1-2">
-      <header>
+      <section>
         <h1 class="roboto yotta">Get started with your 30 day free trial</h1>
         <p class="max-length-no-center">Connect, share and create with your team. Build new things. Create together- today! Already have an account?<a class="log-in gutter-1-2" href="index.html">Log in</a></p>
-      </header>
+      </section>
 
-      <main>
-        <form class="" method="POST" action="https://formspree.io/missfaithannee@gmail.com">
+      <main role="main" id="main">
+        <form id="form" method="POST" action="https://formspree.io/missfaithannee@gmail.com">
+          <caption class="visually-hidden"><h2>Form to sign up for free trial with Teamship</h2></caption>
           <div class="push">
             <label class="roboto" for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" name="sign-up" required>
           </div>
           <div class="push">
             <label class="roboto" for="name">Username</label>
-            <input  id="name">
+            <input id="name" name="sign-up">
           </div>
           <div>
             <label class="roboto" for="password">Password</label>
-            <input type="password" id="password">
+            <input type="password" id="password" name="sign-up">
           </div>
           <div class="island milli">
             <ul>
@@ -105,7 +107,7 @@
           </div>
           <div class="grid grid-top">
             <div class="unit xs-1 s-1 m-1-2">
-              <button class="push w-1 sign-up island-1-2 gutter roboto" type="submit" name="button">Get Started!</button>
+              <a class="push w-1 sign-up island-1-2 gutter roboto text-center btn" type="submit" name="button">Get Started!</a>
             </div>
             <div class="unit xs-1 s-1 m-1-2 gutter micro">
               <p class="push-0">By clicking "Get Started", you are agreeing to Teamship's <a href="#">Terms of Service</a> and <a href="#">Private Policy</a></p>
