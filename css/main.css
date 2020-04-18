@@ -198,6 +198,11 @@ hr {
 
   .icons div img {
     padding: 0;
+    max-width: 15em;
+  }
+
+  .icons div {
+    align-items: center;
   }
 
 
